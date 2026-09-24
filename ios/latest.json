@@ -1,0 +1,9 @@
+{
+  "version": "0.0.5",
+  "build": "11",
+  "releasedAt": "2026-09-24T11:15:55Z",
+  "notes": "## BetterStreamflix 0.0.5\n\nChrome polish \u2014 Detail back, Featured CTAs, Search, logos, and updates sheet.\n\n### Fixes\n\n- **Detail back chrome** \u2014 Single floating back control; removed overlapping toolbar/system chrome and the horizontal bar across the hero; tab bar hides cleanly on Detail and restores on pop\n- **Featured** \u2014 Brand sits higher; removed the top-right index control; View Details and My List are a balanced equal-height pair\n- **Detail title logos** \u2014 Clear logos restore whenever TMDB has one (broader images fetch + English fallback); text only when no logo exists\n- **Search** \u2014 Standalone cover with Back (no longer nested under the More tab highlight); overscroll no longer flashes a black gap\n- **Check for Updates** \u2014 Cleaner glass status / notes cards, rounded sheet chrome\n\n### Install\n\nDownload **BetterStreamflix-0.0.5-unsigned.ipa** from this release (or from the matching Actions artifact).",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.0.5",
+  "ipaAssetName": "BetterStreamflix-0.0.5-unsigned.ipa"
+}
+
