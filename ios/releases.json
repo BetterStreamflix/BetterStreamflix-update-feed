@@ -1,0 +1,10 @@
+[
+  {
+    "version": "0.0.7",
+    "build": "14",
+    "releasedAt": "2026-09-24T12:19:47Z",
+    "notes": "## BetterStreamflix 0.0.7\n\nDetail logo parity, sticky chrome, Featured / Support polish, first-launch setup, release history, and player reliability.\n\n### Detail & Featured\n\n- **Title logos** \u2014 Detail uses the same shared presentation pipeline and in-memory cache as Featured, so logos no longer fall back to text when Featured already has one\n- **Back control** \u2014 Heavily polished glass chevron with true top-leading safe-area placement\n- **Sticky header** \u2014 Scroll past the logo to reveal a compact bar with Back on the left and the media logo centered\n- **Play / My List** \u2014 Smaller Play control; My List matches height and hit area as a labeled capsule\n- **Featured CTAs** \u2014 Polished View Details + Add to List with a stronger add animation; watchlist toast sits lower above the tab bar\n\n### Updates, Support, Setup\n\n- **Browse release history** \u2014 Second high-quality sheet lists public releases with open/download actions (`ios/releases.json`)\n- **Support CTAs** \u2014 Coffee / Telegram / Discord / Patreon redesigned with clearer hierarchy\n- **First-launch setup** \u2014 Onboarding for theme, playback preferences, and providers; main catalog path is TMDB-only; Advanced exposes StreamingCommunity domain + playback sources; revisit from Settings\n\n### Player & CI\n\n- **Player** \u2014 Faster stalled-stream recovery, failure debounce, reconnect chrome for preparing/recovering only (no mid-buffer overlay spam), clearer retry copy\n- **CI** \u2014 Publishes `ios/latest.json` and appends `ios/releases.json` on both update-feed repos\n\n### Install\n\nDownload **BetterStreamflix-0.0.7-unsigned.ipa** from this release (or from the matching Actions artifact).",
+    "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.0.7",
+    "ipaAssetName": "BetterStreamflix-0.0.7-unsigned.ipa"
+  }
+]
