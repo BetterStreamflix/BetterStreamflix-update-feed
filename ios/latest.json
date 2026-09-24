@@ -1,8 +1,8 @@
 {
-  "version": "0.0.8",
-  "build": "15",
-  "releasedAt": "2026-09-24T13:23:16Z",
-  "notes": "## BetterStreamflix 0.0.8\n\nDetail chrome alignment: floating and sticky back share one top-leading origin; compact sticky header height.\n\n### Fixes\n\n- **Back alignment** \u2014 Floating Detail back and scrolled sticky-header back use the same leading inset and safe-area top padding so the control does not jump\n- **Sticky header** \u2014 Slimmer bar (less vertical padding, smaller logo row) while keeping logo centered and back on the left\n\n### Install\n\nDownload **BetterStreamflix-0.0.8-unsigned.ipa** from this release (or from the matching Actions artifact).",
-  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.0.8",
-  "ipaAssetName": "BetterStreamflix-0.0.8-unsigned.ipa"
+  "version": "0.0.9",
+  "build": "16",
+  "releasedAt": "2026-09-24T13:34:59Z",
+  "notes": "## BetterStreamflix 0.0.9\n\nDetail sticky header flush under the status bar \u2014 real layout fix, not a nudge.\n\n### Fix\n\n- **Root cause** \u2014 0.0.8 padded the *outer* chrome by the top safe-area inset, leaving a transparent gap above the material while the bar sat mid-hero. Safe-area padding now applies to the content row; the material background fills that padding so the bar is flush under the status bar / Dynamic Island.\n- Floating and sticky backs still share one top-leading origin in that slim row; logo stays centered.\n\n### Install\n\nDownload **BetterStreamflix-0.0.9-unsigned.ipa** from this release (or from the matching Actions artifact).",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.0.9",
+  "ipaAssetName": "BetterStreamflix-0.0.9-unsigned.ipa"
 }
