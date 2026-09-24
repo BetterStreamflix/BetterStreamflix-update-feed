@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.1.0",
+    "build": "18",
+    "releasedAt": "2026-09-24T19:44:29Z",
+    "notes": "# BetterStreamflix iOS 0.1.0\n\nFull BetterStreamflix provider set on iOS.\n\n- German VOD sources first-class (SerienStream, AniWorld, FilmPalast, Filmo, HDFilme, KinoGer, MEGAKino, Einschalten, Moflix-stream)\n- English, Italian, Spanish, French, and Polish catalog scrapers as functional playback resolvers\n- Shared hoster extractors (VOE, Dood, Streamtape, Vidoza, Meinecloud, \u2026)\n- OpenSubtitles added alongside SubDL / Wizdom / Ktuvit / Stremio\n- First-launch + Settings: TMDB catalog, German section up front, other languages grouped\n- Version 0.1.0",
+    "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.0",
+    "ipaAssetName": "BetterStreamflix-0.1.0-unsigned.ipa"
+  },
+  {
     "version": "0.0.9",
     "build": "16",
     "releasedAt": "2026-09-24T13:34:59Z",
