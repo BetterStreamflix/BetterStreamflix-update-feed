@@ -1,8 +1,8 @@
 {
-  "version": "0.1.2",
-  "build": "20",
-  "releasedAt": "2026-09-26T08:11:50Z",
-  "notes": "# BetterStreamflix iOS 0.1.2\n\nPlayback Language Picker \u2014 one spoken language drives provider enablement and player discovery.\n\n- Single playback language (DE/EN/IT/ES/FR/PL); enables that group and disables others\n- Optional Core / Anime & Stremio switch (default off)\n- Player discovery and source menu hard-filtered to the active language (+ Core if on)\n- Discovery ranks by the language group\u2019s ISO code; out-of-language remembered sources ignored\n- First-launch + Settings language cards with Advanced per-provider fine-tuning\n- Clear empty state when no sources found for the chosen language\n- Version 0.1.2",
-  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.2",
-  "ipaAssetName": "BetterStreamflix-0.1.2-unsigned.ipa"
+  "version": "0.1.3",
+  "build": "21",
+  "releasedAt": "2026-09-26T08:27:01Z",
+  "notes": "# BetterStreamflix iOS 0.1.3\n\nPlayer, Detail chrome, and subtitle discoverability polish.\n\n- OpenSubtitles enable toggle wired (was registered but never searchable)\n- Settings: **Subtitles & Audio** + **Subtitle Sources** with clear CC / player guidance\n- Player: top-trailing settings control, subtitle nudge + Sync Studio menu, Try next source, reconnect attempt count, snappier stall recovery\n- Detail: slimmer flush sticky chrome, no ghost title, refined back control\n- First-launch: show-subtitles-by-default + pointer to Subtitle Sources\n- Version 0.1.3",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.3",
+  "ipaAssetName": "BetterStreamflix-0.1.3-unsigned.ipa"
 }
