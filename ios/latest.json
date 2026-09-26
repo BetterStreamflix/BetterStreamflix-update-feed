@@ -1,8 +1,8 @@
 {
-  "version": "0.1.3",
-  "build": "21",
-  "releasedAt": "2026-09-26T08:27:01Z",
-  "notes": "# BetterStreamflix iOS 0.1.3\n\nPlayer, Detail chrome, and subtitle discoverability polish.\n\n- OpenSubtitles enable toggle wired (was registered but never searchable)\n- Settings: **Subtitles & Audio** + **Subtitle Sources** with clear CC / player guidance\n- Player: top-trailing settings control, subtitle nudge + Sync Studio menu, Try next source, reconnect attempt count, snappier stall recovery\n- Detail: slimmer flush sticky chrome, no ghost title, refined back control\n- First-launch: show-subtitles-by-default + pointer to Subtitle Sources\n- Version 0.1.3",
-  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.3",
-  "ipaAssetName": "BetterStreamflix-0.1.3-unsigned.ipa"
+  "version": "0.1.4",
+  "build": "22",
+  "releasedAt": "2026-09-26T08:51:41Z",
+  "notes": "# BetterStreamflix iOS 0.1.4\n\nNext-level subtitle system expansion and general polish.\n\n- In-player **Browse subtitle tracks** picker (Off \u00b7 provider \u00b7 language \u00b7 sync badges) with live discovery status\n- Caption **Appearance** (size, style, color) via AVTextStyleRules\n- Language-aware **SubtitleRanking** across discovery + auto-select\n- OpenSubtitles: primary + secondary language queries, richer labels\n- Subtitle **cache** size/clear in Settings; Sync Studio track switcher + delete saved sync\n- Empty/unavailable guidance for Sync Studio and catalogs\n- More / Settings / first-launch discoverability polish\n- Version 0.1.4",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.4",
+  "ipaAssetName": "BetterStreamflix-0.1.4-unsigned.ipa"
 }
