@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.1.6",
+    "build": "24",
+    "releasedAt": "2026-09-26T11:39:41Z",
+    "notes": "# BetterStreamflix iOS 0.1.6\n\nSource-open reliability, player polish, Actor/Detail chrome unify, Featured zoom, and app polish.\n\n- Clear stuck \u201cLoading video\u2026\u201d when a source fails; soft banner instead of dead-end OK alert\n- Auto-advance to the next healthy source; Try next source with switching chrome\n- Kinoger / meinecloud open path hardened (alternate hosts, deeper resolve, mirror fallback)\n- Actor (Person) pages upgraded \u2014 hero, bio, known-for, filmography filters, empty/loading\n- Detail sticky chrome matches Actor (`profileStackChrome`)\n- Featured \u2192 Details zoom + swipe-back: freeze carousel source, geometryGroup, smoother morph\n- Home / Library / Settings empty states and material chrome polish\n- Version 0.1.6",
+    "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.6",
+    "ipaAssetName": "BetterStreamflix-0.1.6-unsigned.ipa"
+  },
+  {
     "version": "0.1.5",
     "build": "23",
     "releasedAt": "2026-09-26T09:24:53Z",
