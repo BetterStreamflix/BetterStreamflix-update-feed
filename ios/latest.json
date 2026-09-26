@@ -1,8 +1,8 @@
 {
-  "version": "0.1.4",
-  "build": "22",
-  "releasedAt": "2026-09-26T08:51:41Z",
-  "notes": "# BetterStreamflix iOS 0.1.4\n\nNext-level subtitle system expansion and general polish.\n\n- In-player **Browse subtitle tracks** picker (Off \u00b7 provider \u00b7 language \u00b7 sync badges) with live discovery status\n- Caption **Appearance** (size, style, color) via AVTextStyleRules\n- Language-aware **SubtitleRanking** across discovery + auto-select\n- OpenSubtitles: primary + secondary language queries, richer labels\n- Subtitle **cache** size/clear in Settings; Sync Studio track switcher + delete saved sync\n- Empty/unavailable guidance for Sync Studio and catalogs\n- More / Settings / first-launch discoverability polish\n- Version 0.1.4",
-  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.4",
-  "ipaAssetName": "BetterStreamflix-0.1.4-unsigned.ipa"
+  "version": "0.1.5",
+  "build": "23",
+  "releasedAt": "2026-09-26T09:24:53Z",
+  "notes": "# BetterStreamflix iOS 0.1.5\n\nTitle identity fixes, Kinoger reliability, subtitle expansion, player gesture + detail chrome.\n\n- Year/TMDB/IMDb-bound matching across DE + international providers \u2014 remakes no longer hijack older franchise entries\n- Kinoger: year-ranked search, IMDb page verify, meinecloud fallback, safer episode binding, stronger wrapper expand\n- Subtitles: quality ranking, SDH preference, catalog status chips, track filters, caption position/color, OpenSubtitles downloads/HI tags\n- Player \u22ef menu no longer fights the volume gesture\n- Detail sticky header / title logo enlarged while staying flush under the status bar\n- Version 0.1.5",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.5",
+  "ipaAssetName": "BetterStreamflix-0.1.5-unsigned.ipa"
 }
