@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.1.1",
+    "build": "19",
+    "releasedAt": "2026-09-26T07:50:44Z",
+    "notes": "# BetterStreamflix iOS 0.1.1\n\nPolish pass for logos, Detail chrome, Series overscroll, equal providers, and player recovery.\n\n- Featured + Detail title logos restored (TMDB clear-logo pipeline, cache bust, longer carousel preload, textless backdrops first)\n- Detail chrome / back flush under status bar (overlay ignores top safe area; single inset)\n- Series/Movies: removed janky pull-to-refresh black bar + haptic; Retry on empty state\n- All playback languages equal and enabled by default (German no longer privileged)\n- Player: faster stall recovery, clearer reconnect/error copy\n- Version 0.1.1",
+    "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.1",
+    "ipaAssetName": "BetterStreamflix-0.1.1-unsigned.ipa"
+  },
+  {
     "version": "0.1.0",
     "build": "18",
     "releasedAt": "2026-09-24T19:44:29Z",
