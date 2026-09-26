@@ -1,6 +1,14 @@
 [
   {
     "version": "0.1.15",
+    "build": "57",
+    "releasedAt": "2026-09-26T20:20:53Z",
+    "notes": "# BetterStreamflix iOS 0.1.15\n\nStremio Configure actually works \u2014 wrong URLs, eager WebView capture, and nested sheets were breaking setup.\n\n- **Configure URL:** Always opens `{addon-origin}/configure` (strips Debrid/token path segments that caused 404s after Install with Debrid)\n- **WebView:** No longer cancels HTTPS SPA navigations on `manifest.json`; auto-installs only `stremio://`; HTTPS manifests need confirm tap\n- **looksConfigured:** Comet opaque base64 configs recognized \u2014 no more permanent \u201cneeds configuration\u201d skip after install\n- **Install with Debrid:** Torrentio/Comet/TorBox only; MediaFusion/AIOStreams/Annatar/Jackettio open Configure instead of inventing broken URLs; TorBox requires a TorBox token\n- **UX:** Configure via fullScreenCover (not nested sheet); Configure buttons on presets + Addon Store; clearer fallback copy\n- **Paste:** `stremio:///https://\u2026` and `/configure` URLs parse correctly\n- Version 0.1.15",
+    "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.15",
+    "ipaAssetName": "BetterStreamflix-0.1.15-unsigned.ipa"
+  },
+  {
+    "version": "0.1.15",
     "build": "56",
     "releasedAt": "2026-09-26T20:15:50Z",
     "notes": "# BetterStreamflix iOS 0.1.15\n\nStremio Configure actually works \u2014 wrong URLs, eager WebView capture, and nested sheets were breaking setup.\n\n- **Configure URL:** Always opens `{addon-origin}/configure` (strips Debrid/token path segments that caused 404s after Install with Debrid)\n- **WebView:** No longer cancels HTTPS SPA navigations on `manifest.json`; auto-installs only `stremio://`; HTTPS manifests need confirm tap\n- **looksConfigured:** Comet opaque base64 configs recognized \u2014 no more permanent \u201cneeds configuration\u201d skip after install\n- **Install with Debrid:** Torrentio/Comet/TorBox only; MediaFusion/AIOStreams/Annatar/Jackettio open Configure instead of inventing broken URLs; TorBox requires a TorBox token\n- **UX:** Configure via fullScreenCover (not nested sheet); Configure buttons on presets + Addon Store; clearer fallback copy\n- **Paste:** `stremio:///https://\u2026` and `/configure` URLs parse correctly\n- Version 0.1.15",
