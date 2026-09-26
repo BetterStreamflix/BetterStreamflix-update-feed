@@ -1,8 +1,8 @@
 {
-  "version": "0.1.12",
-  "build": "35",
-  "releasedAt": "2026-09-26T17:48:02Z",
-  "notes": "# BetterStreamflix iOS 0.1.12\n\nStremio mega polish \u2014 Debrid-first playback, full protocol hardening, and discovery that matches desktop expectations.\n\n- **Debrid-first:** Real-Debrid / AllDebrid / Premiumize / TorBox tokens (Keychain) + one-tap Torrentio / Comet / MediaFusion install with your profile \u2014 no in-app BitTorrent\n- Honest stream presets, empty-state diagnostics (no IMDb / torrents-only / addon down), WatchHub external-link clarity, unified \u201cStremio\u201d naming\n- Protocol: `tmdb:` (and kitsu) stream IDs, resource type/idPrefix guards, `configurationRequired` skip + Configure flow, optional meta enrichment for details/episodes\n- Catalog: genre chips, skip pagination, parallel loads, Movies/Series shelves, global Search merge, lazy Home shelves, addon logos, adult opt-in, ETag disk cache, smoke health\n- Deep-link install (`betterstreamflix://` / `stremio://`), addon list export/import, curated Addon Store browser, Torrentio mirror paste list\n- Performance knobs (timeout / max parallel), stream query fail-fast, health-aware addon priority\n- Version 0.1.12",
-  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.12",
-  "ipaAssetName": "BetterStreamflix-0.1.12-unsigned.ipa"
+  "version": "0.1.13",
+  "build": "49",
+  "releasedAt": "2026-09-26T18:54:59Z",
+  "notes": "BetterStreamflix 0.1.13 \u2014 Stremio next level (lists, Debrid alerts, shortcuts, shelves, health).",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.13",
+  "ipaAssetName": "BetterStreamflix-0.1.13-unsigned.ipa"
 }
