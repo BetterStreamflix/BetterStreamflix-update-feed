@@ -1,8 +1,8 @@
 {
-  "version": "0.1.8",
-  "build": "28",
-  "releasedAt": "2026-09-26T14:38:56Z",
-  "notes": "# BetterStreamflix iOS 0.1.8\n\nUrgent artwork regression fix after 0.1.7\u2019s \u201ccomplete art fit\u201d change.\n\n- Restore cinematic full-bleed Featured and Detail heroes (`scaledToFill`, edge-to-edge \u2014 no letterbox voids)\n- Prefer a single TMDB landscape backdrop (official title backdrop first); filter gallery collage / strip arts\n- Continue Watching and poster cards fill their frames without dark gutters\n- Keep 0.1.7 scroll-reveal Detail logo chrome (no Home ghost header)\n- Version 0.1.8",
-  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.8",
-  "ipaAssetName": "BetterStreamflix-0.1.8-unsigned.ipa"
+  "version": "0.1.9",
+  "build": "32",
+  "releasedAt": "2026-09-26T15:13:44Z",
+  "notes": "# BetterStreamflix iOS 0.1.9\n\nFaster stream startup \u2014 closer to Android\u2019s first-play path \u2014 plus Featured hero/glass polish.\n\n- Play the first resolved source immediately (no settle wait; discovery continues in background)\n- Skip pre-play `isPlayable` / HLS quality probes; probe qualities after playback starts\n- Shorter prepare timeout (3.5s) and hoster HTTP timeouts; race meinecloud mirrors in parallel\n- DE path: HTML page cache, SerienStream working-domain persist, parallel wrapper expand\n- Featured/Detail heroes: GeometryReader full-bleed fill; landscape backdrop preferred (no letterbox voids / strip crops)\n- Featured CTAs: Liquid Glass View Details + compact add control (`glassEffect` / GlassEffectContainer)\n- Matching quality and artwork fill preserved from 0.1.5 / 0.1.8 intent\n- Version 0.1.9",
+  "releasePageUrl": "https://github.com/BetterStreamflix/BetterStreamflix-iOS/releases/tag/v0.1.9",
+  "ipaAssetName": "BetterStreamflix-0.1.9-unsigned.ipa"
 }
